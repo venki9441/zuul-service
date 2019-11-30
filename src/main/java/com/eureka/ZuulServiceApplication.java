@@ -1,13 +1,13 @@
-package com.eureka.api;
+package com.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
-@SpringBootApplication
 @EnableZuulProxy
 @EnableDiscoveryClient
+@SpringBootApplication
 public class ZuulServiceApplication {
 
 	public static void main(String[] args) {
